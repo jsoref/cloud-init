@@ -1,9 +1,9 @@
 #!/bin/sh
 # This file is part of cloud-init. See LICENSE file for license information.
 
-# This script is meant to "kvmify" an image.  Its not meant to be
+# This script is meant to "kvmify" an image.  It isn't meant to be
 # terribly robust, or a good idea to ever run in a "real image".
-# its' only intended method of invocation is from the kernel as 'init'
+# its only intended method of invocation is from the kernel as 'init'
 # in which case it will then invoke /sbin/init after it is done
 #  init=/path/to/kvmify-init
 
